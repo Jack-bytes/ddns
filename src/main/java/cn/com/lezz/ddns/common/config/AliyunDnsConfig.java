@@ -12,18 +12,18 @@ import org.springframework.context.annotation.Configuration;
 @Getter
 @Setter
 @Configuration
-public class AliyunConfig {
+public class AliyunDnsConfig {
 
     private String accessKeyId;
 
     private String accessKeySecret;
 
-    private Ddns ddns;
+    private Dns dns;
 
     @Bean
     public Client dnsClient() throws Exception {
         Config config = new Config()
-                .setEndpoint(ddns.getEndpoint())
+                .setEndpoint(dns.getEndpoint())
                 .setAccessKeyId(accessKeyId)
                 .setAccessKeySecret(accessKeySecret);
         return new Client(config);
@@ -31,7 +31,7 @@ public class AliyunConfig {
 
     @Setter
     @Getter
-    static class Ddns {
+    static class Dns {
         private String endpoint;
     }
 

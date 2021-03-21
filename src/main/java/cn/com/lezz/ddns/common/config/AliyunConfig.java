@@ -18,15 +18,21 @@ public class AliyunConfig {
 
     private String accessKeySecret;
 
-    private String endpoint;
+    private Ddns ddns;
 
     @Bean
     public Client dnsClient() throws Exception {
         Config config = new Config()
-                .setEndpoint(endpoint)
+                .setEndpoint(ddns.getEndpoint())
                 .setAccessKeyId(accessKeyId)
                 .setAccessKeySecret(accessKeySecret);
         return new Client(config);
+    }
+
+    @Setter
+    @Getter
+    static class Ddns {
+        private String endpoint;
     }
 
 }

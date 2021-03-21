@@ -5,7 +5,8 @@ aliyun:
     # export ALIYUN_ACCESS_KEY_ID ALIYUN_ACCESS_KEY_SECRET
     access-key-id: ${aliyun_access_key_id}
     access-key-secret: ${aliyun_access_key_secret}
-    endpoint: alidns.cn-chengdu.aliyuncs.com
+    ddns:
+        endpoint: alidns.cn-chengdu.aliyuncs.com
 
 logging:
     level:

@@ -18,10 +18,12 @@ public class AliyunConfig {
 
     private String accessKeySecret;
 
+    private String endpoint;
+
     @Bean
     public Client dnsClient() throws Exception {
         Config config = new Config()
-                .setEndpoint("alidns.cn-chengdu.aliyuncs.com")
+                .setEndpoint(endpoint)
                 .setAccessKeyId(accessKeyId)
                 .setAccessKeySecret(accessKeySecret);
         return new Client(config);

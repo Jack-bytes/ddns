@@ -21,7 +21,7 @@ public class AliyunDnsConfig {
     private Dns dns;
 
     @Bean
-    public Client dnsClient() throws Exception {
+    public Client aliyunDnsClient() throws Exception {
         Config config = new Config()
                 .setEndpoint(dns.getEndpoint())
                 .setAccessKeyId(accessKeyId)

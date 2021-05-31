@@ -1,4 +1,4 @@
-package cn.com.lezz.ddns.common.config;
+package cn.coonu.ddns.common.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

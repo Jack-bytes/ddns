@@ -1,4 +1,4 @@
-package cn.com.lezz.ddns.common;
+package cn.coonu.ddns.common;
 
 import com.aliyun.alidns20150109.Client;
 import com.aliyun.alidns20150109.models.DescribeDomainRecordsRequest;

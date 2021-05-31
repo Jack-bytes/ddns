@@ -1,4 +1,4 @@
-package cn.com.lezz.ddns.common.config;
+package cn.coonu.ddns.common.config;
 
 import com.aliyun.alidns20150109.Client;
 import com.aliyun.teaopenapi.models.Config;
@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@ConfigurationProperties(prefix = "lezz.aliyun")
+@ConfigurationProperties(prefix = "coonu.aliyun")
 @Getter
 @Setter
 @Configuration

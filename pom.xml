@@ -10,7 +10,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>cn.com.lezz</groupId>
+    <groupId>cn.coonu</groupId>
     <artifactId>ddns</artifactId>
     <version>1.0</version>
     <name>ddns</name>

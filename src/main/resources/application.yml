@@ -1,4 +1,4 @@
-lezz:
+coonu:
   aliyun:
     # 需在环境变量文件(.bash_profile)中配置:
     # ALIYUN_ACCESS_KEY_ID=xxxxxxx
@@ -12,7 +12,7 @@ lezz:
 logging:
   level:
     # 可以针对不同包指定不同等级的日志;
-    cn.com.lezz: debug
+    cn.coonu: debug
   file:
     name: logs/@project.artifactId@.log
 

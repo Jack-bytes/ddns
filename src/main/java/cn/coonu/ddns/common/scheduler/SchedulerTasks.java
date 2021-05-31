@@ -1,6 +1,6 @@
-package cn.com.lezz.ddns.common.scheduler;
+package cn.coonu.ddns.common.scheduler;
 
-import cn.com.lezz.ddns.common.Alidns;
+import cn.coonu.ddns.common.Alidns;
 import com.aliyun.alidns20150109.models.DescribeDomainRecordsResponseBody;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

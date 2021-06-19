@@ -15,6 +15,7 @@ logging:
     cn.coonu: debug
   file:
     name: logs/@project.artifactId@.log
+    max-history: 30
 
 spring:
   main:
